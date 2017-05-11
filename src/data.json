@@ -1,19 +1,90 @@
 {
-      "eating": {
-        "name": "Jedzenie",
-        "route": "eating",
+      "kitchen": {
+        "name": "Posiłki - kuchnie",
+        "route": "kitchen",
         "description": "Miejsca w których bezdomni mogą otrzymać darmowe posiłki.",
         "places": [
           {
-            "name": "Siostry Felicjanki - dzieło pomocy o. Pio",
-            "adres": "ul. Smoleńsk 4",
-            "hours": "pon-pt 13:00 - 16:00, sb 13:00 - 15:00"
+            "name": "",
+            "adres": "ul. Dietla 48",
+            "days": "poniedziałek - sobota",
+            "hours": "pon-sb, 12:00 - 13:00 (bloczki), 13:00 - 14:00 (bez bloczków)"
           },
           {
             "name": "Dzieło pomocy o. Pio",
-            "adres": "ul. Reformacka 4",
-            "hours": "16:00 - 17:00"
+            "details": "nieczynna w sierpniu",
+            "adres": "ul. Reformacka 3",
+            "days": "poniedziałek - piątek",
+            "hours": "12:00 - 14:00"
+          },
+          {
+            "name": "",
+            "adres": "ul. Skawińska 6",
+            "days": "codziennie oprócz sobót",
+            "hours": "13:30 - 14:30"
+          },
+          {
+            "name": "",
+            "adres": "ul. Woronicza 10",
+            "days": "poniedziałek - sobota",
+            "hours": "13:00 - 16:00 (w zimie do 17:00)"
+          },
+          {
+            "name": "Kuchnia św. Jadwigi",
+            "adres": "ul. Łokietka 60",
+            "days": "1. poniedziałek - piątek, 2. sobota",
+            "hours": "1. 11:00 - 12:30, 2. 9:30 - 11:00"
+          },
+          {
+            "name": "Kuchnia Społeczna im. S. Samueli - Siostry Felicjanki",
+            "adres": "ul. Smoleńsk 4",
+            "days": "1. poniedziałek - piątek, 2. sobota",
+            "hours": "1. 13:00 - 16:00, 2. 13:00 - 15:00"
+          },
+          {
+            "name": "",
+            "details": "indywidualne podanie",
+            "adres": "ul. Jabłonkowska 18",
+            "days": "poniedziałek - sobota",
+            "hours": "12:30"
           }
+        ]
+      },
+      "packed_food": {
+        "name": "Posiłki - suchy prowiant",
+        "route": "packed_food",
+        "description": "Miejsca w których bezdomni mogą otrzymać suchy prowiant.",
+        "places": [
+            {
+                "name": "Punkt Socjalny Caritas",
+                "adres": "ul. Ossowskiego 5",
+                "days": "poniedziałek, wotrek, piątek",
+                "hours": "9:00 - 13:00"
+            },
+            {
+                "name": "Punkt Wydawania Żywności",
+                "adres": "ul. Reformacka",
+                "days": "codziennie",
+                "hours": "16:00 - 17:00"
+            },
+            {
+                "name": "Punkt Pomocy Doraźnej Sióstr Albertynek",
+                "adres": "ul. Krakowska 47",
+                "days": "poniedziałek - sobota",
+                "hours": "9:00 - 9:30 śniadanie"
+            },
+            {
+                "name": "Przytulisko św. Brata Alberta",
+                "adres": "ul. Skawińska 6",
+                "days": "codziennie",
+                "hours": "9:00 - 10:00, 16:00 - 17:00"
+            },
+            {
+                "name": "Polski Komitet Pomocy Społecznej",
+                "adres": "os. Zielone 8",
+                "days": "poniedziałek, wtorek",
+                "hours": "9:00 - 14:00"
+            }
         ]
       },
       "sleeping": {

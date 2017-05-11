@@ -12,7 +12,9 @@ class Place extends Component {
         return (
             <div>
                 <Panel header={place.name}>
-                    <p>Adres: {place.adres}</p>
+                    <p>Adres: <b>{place.adres}</b></p>
+                    <p>Dzień otwarcie: {place.days}</p>
+                    <p>Godziny otwarcia: {place.hours}</p>
                 </Panel>
             </div>
         );
