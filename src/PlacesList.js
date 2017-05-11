@@ -6,8 +6,8 @@ import { Grid, Row, Col } from 'react-bootstrap';
 class PlacesList extends Component {
 
     renderPlaces(placesList) {
-        const listItems = placesList.map((place) =>
-            <Place place={place} />
+        const listItems = placesList.map((place, index) =>
+            <Place place={place} key={index} />
         );
         return (
             <div>{listItems}</div>
@@ -19,7 +19,7 @@ class PlacesList extends Component {
             <div>
                 <Grid>
                     <Row className="show-grid">
-                        <Col lg={6} lgOffset={3} md={4} mdOffset={4} sm={6} smOffset={3} xs={10} xsOffset={1}>
+                        <Col lg={6} lgOffset={3} md={8} mdOffset={2} sm={10} smOffset={1} xs={12}>
                             {this.renderPlaces(this.props.list)}
                         </Col>
                     </Row>
