@@ -1,7 +1,6 @@
 {
-      "kitchen": {
+      "kitchens": {
         "name": "Posiłki - kuchnie",
-        "route": "kitchen",
         "description": "Miejsca w których bezdomni mogą otrzymać darmowe posiłki.",
         "places": [
           {
@@ -52,7 +51,6 @@
       },
       "packed_food": {
         "name": "Posiłki - suchy prowiant",
-        "route": "packed_food",
         "description": "Miejsca w których bezdomni mogą otrzymać suchy prowiant.",
         "places": [
             {
@@ -87,61 +85,168 @@
             }
         ]
       },
-      "sleeping": {
-        "name": "Schroniska i noclegownie",
-        "route": "sleeping",
+      "shelter_women": {
+        "name": "Schronienie - kobiety",
         "description": "Miejsca w których bezdomni mogą się przespać.",
         "places": [
           {
-            "name": "Chrześcijański Ośrodek Pomocy Bezdomnym \"Dom Korneliusza\"",
-            "adres": "ul. Koprowa 4"
-          },
-          {
-            "name": "Noclegownia i Schronisko dla Bezdomnych Mężczyzn",
-            "adres": "ul. Makuszyńskiego 19a"
+            "name": "Przytulisko św. Brata Alberta dla Bezdomnych Kobiet",
+            "adres": "ul. Malborska 64 B"
           },
           {
             "name": "Schronisko dla Bezdomnych Kobiet",
-            "adres": "ul. Sołtysowska 13c"
+            "adres": "ul. Sołtysowska 13C"
+          },
+          {
+            "name": "Chrześcijańsk Ośodek Pomocy Bezdomnym \"Dom Łazarza\"",
+            "adres": "ul. Nowogródzka 8"
+          },
+          {
+            "name": "Dom Matki i Dziecka im. bł Bernardyny Jabłońskiej",
+            "adres": "ul. Żywiecka 16"
+          },
+          {
+            "name": "Dom Samotnej Matki \"Okno Życia\"",
+            "details": "całodobowo",
+            "adres": "ul Przybyszewskiego 39"
+          },
+          {
+            "name": "OGRZEWALNIE",
+            "details": "czynna w okresie zimowym",
+            "adres": "os. Krakowiaków 46"
+          }
+        ]
+      },
+      "shelter_men": {
+        "name": "Schronienie - mężczyźni",
+        "description": "Miejsca w których bezdomni mogą się przespać.",
+        "places": [
+          {
+            "name": "Przytulisko św. Brata Alberta",
+            "adres": "ul. Skawińska 4-6"
+          },
+          {
+            "name": "Noclegownia i Schronisko dla Bezdomnych Mężczyzn",
+            "details": "czynna w okresie zimowym",
+            "adres": "ul. Makuszyńskiego 19 A"
+          },
+          {
+            "name": "Krakowska Fundacja Pomocy Potrzebującym NASZ DOM",
+            "adres": "ul. Nad Fosą 32"
+          },
+          {
+            "name": "Chrześcijański Ośrodek Pomocy Bezdomnym \"Dom Łazarza\"",
+            "adres": "ul. Nowogródzka 8"
+          },
+          {
+            "name": "Schronisko \"Dom Korneliusza\"",
+            "adres": "ul. Koprowa 4"
+          },
+          {
+            "name": "Wspólnota \"Emaus\"",
+            "adres": "ul. Czeczeńska 25"
+          },
+          {
+            "name": "OGRZEWALNIA",
+            "details": "czynna w okresie zimowym",
+            "adres": "ul. Rozrywka 1"
+          },
+          {
+            "name": "OGRZEWALNIA",
+            "details": "czynna w okresie zimowym",
+            "adres": "ul. Wielicka 44 B"
           }
         ]
       },
       "baths": {
         "name": "Łaźnie",
-        "route": "baths",
         "description": "Darmowe łaźnie dla bezdomnych",
         "places": [
           {
-            "name": "Przytulisko im. św. Brata Alberta dla Bezdomnych Mężczyzn",
-            "adres": "Kraków, ul. Kościuszki 23"
-          },
-          {
-            "name": "Krakowskie Centrum Bezdomnych",
-            "adres": "Kraków, ul. Pawia 22"
+            "name": "Łaźnia Dzieła Pomocy św. Ojca Pio",
+            "adres": "ul. Smoleńsk 4",
+            "days": "poniedziałek, wtorek, środa, piątek",
+            "hours": "10:30 - 16:00 (kobiety: wtorek, piątek 10:00 - 12:30)"
           }
         ]
       },
-      "doctor": {
-        "name": "Lekarz",
-        "route": "doctor",
+      "medical": {
+        "name": "Pomoc medyczna",
+        "route": "medical",
         "description": "Miejsca w których bezdomni mogą otrzymać darmową pomoc lekarską.",
         "places": [
           {
-            "name": "Centrum Kompleksowej Pomocy Bezdomnym i Najuboższym",
+            "name": "Przychodnia Lekarska dla Osób Bezdomnych i Ubogich",
             "adres": "ul. Smoleńsk 4",
-            "hours": ""
-          },
-          {
-            "name": "Lekarze Nadziei",
-            "adres": "Kraków, ul. Olszańska 5",
-            "hours": ""
+            "days": "poniedziałek - piątek",
+            "hours": "12:00 - 18:00"
           }
         ]
       },
       "medicines": {
         "name": "Lekarstwa",
-        "route": "medicines",
         "description": "Miejsca w których bezdomni mogą otrzymać darmowe lekarstwa.",
-        "places": []
+        "places": [
+            {
+            "name": "Apteka Darów",
+            "adres": "ul. Na Błonie 1",
+            "days": "poniedziałek, środa",
+            "hours": "16:00 - 18:00"
+          },
+          {
+            "name": "Punkt charytatywny wydawania leków",
+            "adres": "ul. Dywizjonu 303 Pawilon Nr. 1",
+            "days": "poniedziałek, środa, piątek",
+            "hours": "12:00 - 18:00"
+          }
+        ]
+      },
+      "clothes": {
+        "name": "Odzież",
+        "description": "Miejsca w których bezdomni mogą otrzymać darmową odzież.",
+        "places": [
+            {
+            "name": "Garderoba Dzieła Pomocy św. Ojca Pio",
+            "adres": "ul. Smoleńsk 4",
+            "days": "poniedziałek, wtorek, środa, piątek",
+            "hours": "10:30 - 16:00"
+          },
+          {
+            "name": "PCK",
+            "adres": "os. Zielone 16",
+            "days": "wtorek, piątek",
+            "hours": "10:00 - 14:00"
+          },
+          {
+            "name": "Punkt Pomocy",
+            "adres": "os. Bożego Ciała 21",
+            "days": "wtorek, czwartek",
+            "hours": "16:00 - 18:00"
+          },
+          {
+            "name": "Polski Komitet Pomocy Społecznej",
+            "adres": "os. Zielone 8",
+            "days": "środa, czwartek",
+            "hours": "9:00 - 14:00"
+          },
+          {
+            "name": "Punkt Socjalny Caritas",
+            "adres": "ul. Ossowskiego 5",
+            "days": "poniedziałek, wtorek, piątek",
+            "hours": "9:00 - 14:00"
+          },
+          {
+            "name": "Parafia św. Jana Kantego",
+            "adres": "ul. Jabłonkowska 18",
+            "days": "czwartek",
+            "hours": "17:00 - 20:00"
+          },
+          {
+            "name": "Kuchnia św. Brata Alberta",
+            "adres": "ul. Reformacka 3",
+            "days": "poniedziałek - piątek",
+            "hours": "12:00 - 14:00"
+          }
+        ]
       }
 }
