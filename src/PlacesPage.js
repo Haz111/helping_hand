@@ -7,7 +7,7 @@ class PlacesPage extends Component {
   
   render() {
     let placeData = placesData[this.props.location.pathname.slice(1,)]; 
-
+    
     return (
       <div>
         <Grid>
