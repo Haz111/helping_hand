@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch
-} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Grid, Jumbotron } from 'react-bootstrap';
 import MenuCategory from './MenuCategory';
 import PlacesPage from './PlacesPage';
