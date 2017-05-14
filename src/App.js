@@ -12,7 +12,7 @@ class App extends Component {
       <div>
         <Jumbotron className="text-center">
           <Grid>
-            <h1>Pomocna dłoń</h1>
+            <h1>Pomaganie jest sexy!</h1>
             <p>Bo pomagać możesz zawsze</p> 
           </Grid>
         </Jumbotron>
