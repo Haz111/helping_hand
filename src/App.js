@@ -19,8 +19,6 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={MenuCategory} />
-            <Route exact path="/helping_hand" component={MenuCategory} />
-            <Route path="/helping_hand/:category" component={PlacesPage} />
             <Route path="/:category" component={PlacesPage} />
           </Switch>
         </Router>
